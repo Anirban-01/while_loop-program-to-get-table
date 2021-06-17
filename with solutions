@@ -7,5 +7,5 @@ count = 1
 
 while count <= 10:
     table_value = number * count
-    print(table_value)
+    print(number, 'x', count, '=', table_value)
     count = count + 1
