@@ -1,0 +1,11 @@
+# example of while loop
+# table value for any number
+number = int(input('enter a number to multiply : '))
+count = 1
+
+# using while loop
+
+while count <= 10:
+    table_value = number * count
+    print(table_value)
+    count = count + 1
